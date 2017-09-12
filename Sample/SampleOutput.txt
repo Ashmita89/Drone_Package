@@ -1,0 +1,182 @@
+C:\Users\ag508\Documents>java -jar Drone_Package-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+****************************************************************************************************************************************************************
+*************************************************************            INPUT           ***********************************************************************
+****************************************************************************************************************************************************************
+Input dronesJsonString : [{"droneId":28768,"location":{"latitude":-37.773712914099576,"longitude":144.86381863356624},"packages":[{"destination":{"latitude":-37.778504572274485,"longitude":144.8621950286436},"packageId":305,"deadline":1505177578}]},{"droneId":47094,"location":{"latitude":-37.771632423999996,"longitude":144.85936332319517},"packages":[{"destination":{"latitude":-37.78341817357429,"longitude":144.8502661806214},"packageId":1030,"deadline":1505177017}]},{"droneId":53600,"location":{"latitude":-37.780166896080644,"longitude":144.86184602207484},"packages":[{"destination":{"latitude":-37.76907643837013,"longitude":144.86086141629676},"packageId":1526,"deadline":1505177276}]},{"droneId":76997,"location":{"latitude":-37.76689222092831,"longitude":144.86038696762293},"packages":[{"destination":{"latitude":-37.765421556562124,"longitude":144.86136609567495},"packageId":3353,"deadline":1505176249}]},{"droneId":105878,"location":{"latitude":-37.77001649125309,"longitude":144.8611404836943},"packages":[{"destination":{"latitude":-37.783796777325904,"longitude":144.85794919515865},"packageId":3802,"deadline":1505177113}]},{"droneId":116915,"location":{"latitude":-37.77898279894444,"longitude":144.86189002956456},"packages":[{"destination":{"latitude":-37.77646467875574,"longitude":144.8594378887408},"packageId":5392,"deadline":1505177386}]},{"droneId":185789,"location":{"latitude":-37.769564736375095,"longitude":144.8483628873196},"packages":[{"destination":{"latitude":-37.76660842510361,"longitude":144.86254448152582},"packageId":5582,"deadline":1505177525}]},{"droneId":199027,"location":{"latitude":-37.7780886874998,"longitude":144.8605464020231},"packages":[{"destination":{"latitude":-37.78486223437754,"longitude":144.8494886052852},"packageId":6646,"deadline":1505177921}]},{"droneId":284319,"location":{"latitude":-37.78184220956569,"longitude":144.84851219585633},"packages":[{"destination":{"latitude":-37.78181693009559,"longitude":144.85628077647834},"packageId":6675,"deadline":1505176425}]},{"droneId":302830,"location":{"latitude":-37.766163657912756,"longitude":144.85869924819852},"packages":[{"destination":{"latitude":-37.77123021619523,"longitude":144.85937198090792},"packageId":6787,"deadline":1505175722}]},{"droneId":351173,"location":{"latitude":-37.78114456309715,"longitude":144.86178710785796},"packages":[{"destination":{"latitude":-37.784789056148995,"longitude":144.85156949658392},"packageId":9222,"deadline":1505176261}]},{"droneId":410699,"location":{"latitude":-37.76982141873826,"longitude":144.86268648382406},"packages":[{"destination":{"latitude":-37.78101198380533,"longitude":144.84929126091882},"packageId":9685,"deadline":1505175397}]},{"droneId":508288,"location":{"latitude":-37.7802417959326,"longitude":144.8539142973104},"packages":[]},{"droneId":511384,"location":{"latitude":-37.776526100657605,"longitude":144.84846766528443},"packages":[]},{"droneId":519356,"location":{"latitude":-37.77641088742314,"longitude":144.8489290022734},"packages":[]},{"droneId":561447,"location":{"latitude":-37.784687057615294,"longitude":144.85350171657882},"packages":[]},{"droneId":568237,"location":{"latitude":-37.78497722758435,"longitude":144.86103426951038},"packages":[]},{"droneId":581231,"location":{"latitude":-37.76891807491749,"longitude":144.85437338097785},"packages":[]},{"droneId":582096,"location":{"latitude":-37.76860379184647,"longitude":144.85305985582843},"packages":[]},{"droneId":660525,"location":{"latitude":-37.77610822306963,"longitude":144.85982467511113},"packages":[]},{"droneId":671978,"location":{"latitude":-37.76832068102241,"longitude":144.85724671074047},"packages":[]},{"droneId":727734,"location":{"latitude":-37.768301157848356,"longitude":144.85985522103704},"packages":[]},{"droneId":745859,"location":{"latitude":-37.77205969881399,"longitude":144.86048163541977},"packages":[]},{"droneId":755401,"location":{"latitude":-37.777993028540486,"longitude":144.8502434326575},"packages":[]},{"droneId":809531,"location":{"latitude":-37.78413403672138,"longitude":144.85187174844808},"packages":[]},{"droneId":816802,"location":{"latitude":-37.77249438070787,"longitude":144.86336556104774},"packages":[]},{"droneId":836697,"location":{"latitude":-37.76957665671931,"longitude":144.86344262943985},"packages":[]},{"droneId":838728,"location":{"latitude":-37.7846225682642,"longitude":144.84907241266842},"packages":[]},{"droneId":851019,"location":{"latitude":-37.7849881593585,"longitude":144.85338539679407},"packages":[]},{"droneId":869803,"location":{"latitude":-37.78377458302594,"longitude":144.85542214473313},"packages":[]},{"droneId":881641,"location":{"latitude":-37.778059473321875,"longitude":144.851571189367},"packages":[]},{"droneId":907438,"location":{"latitude":-37.766826777560354,"longitude":144.8549067836766},"packages":[]},{"droneId":933554,"location":{"latitude":-37.766180755097956,"longitude":144.86200327958952},"packages":[]},{"droneId":942911,"location":{"latitude":-37.776772290873446,"longitude":144.8490759629571},"packages":[]},{"droneId":955282,"location":{"latitude":-37.78164458107688,"longitude":144.8644799564392},"packages":[]}]
+Input packageJsonString : [{"destination":{"latitude":-37.775312179145885,"longitude":144.8642910010869},"packageId":73,"deadline":1505175876},{"destination":{"latitude":-37.77239696560926,"longitude":144.85760269190308},"packageId":227,"deadline":1505176542},{"destination":{"latitude":-37.76700827790702,"longitude":144.86356116826448},"packageId":232,"deadline":1505176737},{"destination":{"latitude":-37.779517377833834,"longitude":144.85750031151585},"packageId":361,"deadline":1505176450},{"destination":{"latitude":-37.766538922403186,"longitude":144.8533847893368},"packageId":587,"deadline":1505176187},{"destination":{"latitude":-37.784663115159404,"longitude":144.8593932290219},"packageId":887,"deadline":1505178250},{"destination":{"latitude":-37.779172987345895,"longitude":144.8596822347135},"packageId":919,"deadline":1505177630},{"destination":{"latitude":-37.77482884802088,"longitude":144.8561335105686},"packageId":1018,"deadline":1505176846},{"destination":{"latitude":-37.77302027124409,"longitude":144.85120349070962},"packageId":1123,"deadline":1505177717},{"destination":{"latitude":-37.77355641686981,"longitude":144.85927854093333},"packageId":1171,"deadline":1505175563},{"destination":{"latitude":-37.77239544780125,"longitude":144.85071233711614},"packageId":1306,"deadline":1505176204},{"destination":{"latitude":-37.77666928479772,"longitude":144.85996942513708},"packageId":1600,"deadline":1505176362},{"destination":{"latitude":-37.77766600298791,"longitude":144.85327307425666},"packageId":1621,"deadline":1505176879},{"destination":{"latitude":-37.76556238545097,"longitude":144.85800963072572},"packageId":1685,"deadline":1505177879},{"destination":{"latitude":-37.77789734898708,"longitude":144.8618008724375},"packageId":1710,"deadline":1505177038},{"destination":{"latitude":-37.77005476687954,"longitude":144.85638397740098},"packageId":1811,"deadline":1505176079},{"destination":{"latitude":-37.77912534570203,"longitude":144.8648425111608},"packageId":2123,"deadline":1505176465},{"destination":{"latitude":-37.775922672055884,"longitude":144.8606750862814},"packageId":2157,"deadline":1505175798},{"destination":{"latitude":-37.78388095540548,"longitude":144.84989312303003},"packageId":2460,"deadline":1505175393},{"destination":{"latitude":-37.770646644632016,"longitude":144.85834215254096},"packageId":2558,"deadline":1505177009},{"destination":{"latitude":-37.77151202189501,"longitude":144.86442917647372},"packageId":2561,"deadline":1505175925},{"destination":{"latitude":-37.77011307409848,"longitude":144.84870923879905},"packageId":2713,"deadline":1505176471},{"destination":{"latitude":-37.76633460798136,"longitude":144.84833443729144},"packageId":2865,"deadline":1505175701},{"destination":{"latitude":-37.77671392234696,"longitude":144.86332414411743},"packageId":2960,"deadline":1505176869},{"destination":{"latitude":-37.777374498514874,"longitude":144.8603071010693},"packageId":3031,"deadline":1505178485},{"destination":{"latitude":-37.77676188122448,"longitude":144.86147550148968},"packageId":3395,"deadline":1505176665},{"destination":{"latitude":-37.768894771651695,"longitude":144.85002759493102},"packageId":3519,"deadline":1505178032},{"destination":{"latitude":-37.770994953705625,"longitude":144.8517618245938},"packageId":3540,"deadline":1505176662},{"destination":{"latitude":-37.78292322174548,"longitude":144.86328895042035},"packageId":3748,"deadline":1505175458},{"destination":{"latitude":-37.77698030571048,"longitude":144.85015017993206},"packageId":3909,"deadline":1505175529},{"destination":{"latitude":-37.77996233315797,"longitude":144.86383919967858},"packageId":4218,"deadline":1505176790},{"destination":{"latitude":-37.77680500599311,"longitude":144.8504741664253},"packageId":4274,"deadline":1505178447},{"destination":{"latitude":-37.76754355282709,"longitude":144.85551113152331},"packageId":4341,"deadline":1505175829},{"destination":{"latitude":-37.78066190086928,"longitude":144.85580518242085},"packageId":4578,"deadline":1505177405},{"destination":{"latitude":-37.782159346224006,"longitude":144.85598793746428},"packageId":4685,"deadline":1505178511},{"destination":{"latitude":-37.77206819766012,"longitude":144.86237580731725},"packageId":4780,"deadline":1505178336},{"destination":{"latitude":-37.765428045034255,"longitude":144.86245633451648},"packageId":5058,"deadline":1505178232},{"destination":{"latitude":-37.77505207068257,"longitude":144.8551708143147},"packageId":5081,"deadline":1505177424},{"destination":{"latitude":-37.773594819538616,"longitude":144.8585528038465},"packageId":5208,"deadline":1505176551},{"destination":{"latitude":-37.77846963111764,"longitude":144.85688235395966},"packageId":5655,"deadline":1505177833},{"destination":{"latitude":-37.77658545033517,"longitude":144.8530750504022},"packageId":5761,"deadline":1505178069},{"destination":{"latitude":-37.78161597481961,"longitude":144.84788114094306},"packageId":5853,"deadline":1505178306},{"destination":{"latitude":-37.78090988387865,"longitude":144.85589171878075},"packageId":5897,"deadline":1505176035},{"destination":{"latitude":-37.76730762212871,"longitude":144.85713247679516},"packageId":6624,"deadline":1505177204},{"destination":{"latitude":-37.76864542094625,"longitude":144.85512564651694},"packageId":6715,"deadline":1505176446},{"destination":{"latitude":-37.76923611689886,"longitude":144.8557959764706},"packageId":7412,"deadline":1505175506},{"destination":{"latitude":-37.76554623749913,"longitude":144.8516059283732},"packageId":7695,"deadline":1505175282},{"destination":{"latitude":-37.770197478981274,"longitude":144.85944303150293},"packageId":7761,"deadline":1505176456},{"destination":{"latitude":-37.77517149741429,"longitude":144.8487921610553},"packageId":7823,"deadline":1505177222},{"destination":{"latitude":-37.773085272807,"longitude":144.86346075375155},"packageId":8037,"deadline":1505178467},{"destination":{"latitude":-37.76975756460685,"longitude":144.8514983594668},"packageId":8398,"deadline":1505175892},{"destination":{"latitude":-37.78489407912849,"longitude":144.85213049531941},"packageId":8456,"deadline":1505178496},{"destination":{"latitude":-37.774596555630346,"longitude":144.8621750491968},"packageId":8558,"deadline":1505175544},{"destination":{"latitude":-37.78348331476842,"longitude":144.84937736204648},"packageId":8653,"deadline":1505175584},{"destination":{"latitude":-37.77516091898848,"longitude":144.8474688927483},"packageId":9120,"deadline":1505178401},{"destination":{"latitude":-37.781593129993816,"longitude":144.85683395810491},"packageId":9244,"deadline":1505176045},{"destination":{"latitude":-37.77462535162746,"longitude":144.85411494353494},"packageId":9282,"deadline":1505177066},{"destination":{"latitude":-37.77390903096874,"longitude":144.86499279925968},"packageId":9836,"deadline":1505176082},{"destination":{"latitude":-37.77279858658374,"longitude":144.86205985364197},"packageId":9840,"deadline":1505176830}]
+****************************************************************************************************************************************************************
+Number of drones :35
+Number of packages :59
+****************************************************************************************************************************************************************
+*********************************************                    FINAL ASSIGNMENT           ********************************************************************
+****************************************************************************************************************************************************************
+{
+  "assignments": [
+    {
+      "droneId": "351173",
+      "packageId": "5761"
+    },
+    {
+      "droneId": "755401",
+      "packageId": "4218"
+    },
+    {
+      "droneId": "838728",
+      "packageId": "3031"
+    },
+    {
+      "droneId": "76997",
+      "packageId": "3540"
+    },
+    {
+      "droneId": "851019",
+      "packageId": "1123"
+    },
+    {
+      "droneId": "508288",
+      "packageId": "2123"
+    },
+    {
+      "droneId": "745859",
+      "packageId": "1621"
+    },
+    {
+      "droneId": "410699",
+      "packageId": "9120"
+    },
+    {
+      "droneId": "836697",
+      "packageId": "1018"
+    },
+    {
+      "droneId": "105878",
+      "packageId": "5853"
+    },
+    {
+      "droneId": "582096",
+      "packageId": "5655"
+    },
+    {
+      "droneId": "284319",
+      "packageId": "4274"
+    },
+    {
+      "droneId": "955282",
+      "packageId": "227"
+    },
+    {
+      "droneId": "511384",
+      "packageId": "5208"
+    },
+    {
+      "droneId": "28768",
+      "packageId": "1685"
+    },
+    {
+      "droneId": "671978",
+      "packageId": "3519"
+    },
+    {
+      "droneId": "53600",
+      "packageId": "6624"
+    },
+    {
+      "droneId": "907438",
+      "packageId": "5081"
+    },
+    {
+      "droneId": "881641",
+      "packageId": "3395"
+    },
+    {
+      "droneId": "568237",
+      "packageId": "232"
+    },
+    {
+      "droneId": "869803",
+      "packageId": "887"
+    },
+    {
+      "droneId": "660525",
+      "packageId": "919"
+    },
+    {
+      "droneId": "581231",
+      "packageId": "4578"
+    },
+    {
+      "droneId": "302830",
+      "packageId": "5058"
+    },
+    {
+      "droneId": "816802",
+      "packageId": "361"
+    },
+    {
+      "droneId": "561447",
+      "packageId": "1600"
+    },
+    {
+      "droneId": "199027",
+      "packageId": "8037"
+    },
+    {
+      "droneId": "942911",
+      "packageId": "4685"
+    },
+    {
+      "droneId": "116915",
+      "packageId": "2558"
+    },
+    {
+      "droneId": "47094",
+      "packageId": "8456"
+    },
+    {
+      "droneId": "809531",
+      "packageId": "1710"
+    },
+    {
+      "droneId": "519356",
+      "packageId": "4780"
+    },
+    {
+      "droneId": "933554",
+      "packageId": "2713"
+    },
+    {
+      "droneId": "727734",
+      "packageId": "2960"
+    },
+    {
+      "droneId": "185789",
+      "packageId": "7823"
+    }
+  ],
+  "unassignedPackageIds": [
+    73,
+    587,
+    1171,
+    1306,
+    1811,
+    2157,
+    2460,
+    2561,
+    2865,
+    3748,
+    3909,
+    4341,
+    5897,
+    6715,
+    7412,
+    7695,
+    7761,
+    8398,
+    8558,
+    8653,
+    9244,
+    9282,
+    9836,
+    9840
+  ]
+}
